@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>数独</title>
+  <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+  <script src="./sudoku.js"></script>
+  <script src="./utils.js"></script>
+<!--  <script src="./topics.js"></script>-->
+<!--  <script src="./topic.js"></script>-->
+</head>
+<script>
+  function init () {
+    var stage = new createjs.Stage("demoCanvas");
+    new Sudoku(stage, new Utils()).init()
+    // new Topic(stage, topics).init()
+  }
+</script>
+<body onload="init();">
+<canvas id="demoCanvas" width="1000" height="1500"></canvas>
+</body>
+</html>
