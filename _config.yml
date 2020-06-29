@@ -62,7 +62,7 @@ cover_color: clear
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 我的项目, description: archive, url: '/archive'}
+    - {title: 我的项目, description: archive, url: '/index'}
     - {title: 关于我, description: about, url: '/about'}
 
 
