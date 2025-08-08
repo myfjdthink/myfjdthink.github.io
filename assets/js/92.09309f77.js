@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[92],{670:function(t,n,s){"use strict";s.r(n);var o=s(2),e=Object(o.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("放弃自建域名了，太麻烦了，还要备案，直接挂在 github.io 上吧")])])}),[],!1,null,null,null);n.default=e.exports}}]);
